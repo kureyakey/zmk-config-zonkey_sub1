@@ -1,4 +1,4 @@
-if SHIELD_zonkey_RIGHT
+if SHIELD_ZONKEY_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "zonkey"
@@ -20,3 +20,4 @@ config ZMK_SPLIT
     default y
 
 endif
+
