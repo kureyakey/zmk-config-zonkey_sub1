@@ -1,20 +1,20 @@
-if SHIELD_ZONKEY_R
+if SHIELD_zonkey_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "zonkey_R"
-
-config ZMK_SPLIT
-    default y
+    default "zonkey"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+    
+config BT_MAX_CONN
+    default 5
+
 endif
 
-if SHIELD_ZONKEY_L
-
-config ZMK_KEYBOARD_NAME
-    default "zonkey_L"
+if SHIELD_ZONKEY_LEFT || SHIELD_ZONKEY_RIGHT
 
 config ZMK_SPLIT
     default y
