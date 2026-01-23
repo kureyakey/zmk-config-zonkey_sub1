@@ -17,6 +17,13 @@
     status = "okay";
 };
 
+&right_encoder {
+    a-gpios = <&gpio1  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    b-gpios = <&gpio0 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    steps = <24>;
+    status = "okay";
+};
+
 &glidepoint_split_L {
     status = "okay";
     device = <&glidepoint>;
