@@ -138,7 +138,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N2>, <&kp AT>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     mo6: mo6 {
@@ -146,7 +146,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N6>, <&kp CARET>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     mo7: mo7 {
@@ -154,7 +154,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N7>, <&kp AMPS>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     mo8: mo8 {
@@ -162,7 +162,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N8>, <&kp ASTRK>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     mo9: mo9 {
@@ -170,7 +170,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N9>, <&kp LPAR>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     mo0: mo0 {
@@ -178,7 +178,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp N0>, <&kp LPAR>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moA: moA {
@@ -186,7 +186,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp MINUS>, <&kp UNDERSCORE>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moB: moB {
@@ -194,7 +194,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp EQUAL>, <&kp PLUS>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moC: moC {
@@ -202,7 +202,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp INT3>, <&kp JP_PIPE>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moD: moD {
@@ -210,7 +210,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp LBKT>, <&kp LBRC>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moE: moE {
@@ -218,7 +218,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp RBKT>, <&kp RBRC>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moF: moF {
@@ -226,7 +226,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp SEMI>, <&kp KP_PLUS>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moG: moG {
@@ -234,7 +234,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp APOSTROPHE>, <&kp DQT>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moH: moH {
@@ -242,7 +242,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp BACKSLASH>, <&kp TILDE2>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
     moI: moI {
@@ -250,7 +250,7 @@ mo2: mo2 {
         #binding-cells = <0>;
         bindings = <&kp JP_BSLH>, <&kp JP_UNDERSCORE>;
 
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT MOD_RSFT)>;
     };
 
 sh_gui_s: sh_gui_s {
