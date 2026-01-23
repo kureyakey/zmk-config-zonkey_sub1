@@ -134,20 +134,18 @@
         compatible = "zmk,combos";
 
 mo2: mo2 {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N2>, <&kp AT>;
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp N2>, <&kp AT>;
+    mods = <MOD_LSFT MOD_RSFT>;
+};
 
-        mods = <(MOD_LSFT MOD_RSFT)>;
-    };
-
-    mo6: mo6 {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N6>, <&kp CARET>;
-
-        mods = <(MOD_LSFT MOD_RSFT)>;
-    };
+mo6: mo6 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp N6>, <&kp CARET>;
+    mods = <MOD_LSFT MOD_RSFT>;
+};
 
     mo7: mo7 {
         compatible = "zmk,behavior-mod-morph";
