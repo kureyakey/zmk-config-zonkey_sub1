@@ -176,7 +176,7 @@ mo2: mo2 {
     mo0: mo0 {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp N0>, <&kp LS(N9)>;
+        bindings = <&kp N0>, <&kp LPAR>;
 
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
