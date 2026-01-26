@@ -1,23 +1,45 @@
 if SHIELD_ZONKEY_RIGHT
 
-config ZMK_KEYBOARD_NAME
-    default "zonkey"
+  config ZMK_KEYBOARD_NAME
+      default "zonkey_right"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+  config ZMK_SPLIT
+      default y
 
-config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
-    
-config BT_MAX_CONN
-    default 5
+  # Peripheral side - display enabled with oled_adapter
+  if ZMK_DISPLAY
+        config I2C
+            default y
+
+        config SSD1306
+            default y
+    endif # ZMK_DISPLAY
+
+    if LVGL
+        config LV_Z_VDB_SIZE
+            default 64
+
+        config LV_DPI_DEF
+            default 148
+
+        config LV_Z_BITS_PER_PIXEL
+            default 1
+
+        choice LV_COLOR_DEPTH
+            default LV_COLOR_DEPTH_1
+        endchoice
+  endif # LVGL
 
 endif
 
-if SHIELD_ZONKEY_LEFT || SHIELD_ZONKEY_RIGHT
+if SHIELD_ZONKEY_L
 
-config ZMK_SPLIT
-    default y
+    config ZMK_KEYBOARD_NAME
+        default "zonkey_L"
 
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+
+    config ZMK_SPLIT
+        default y
 endif
-
