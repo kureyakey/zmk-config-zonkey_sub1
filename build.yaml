@@ -1,6 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: zonkey_right nice_oled
+    shield: "zonkey_right oled_adapter_seeeduino_xiao_ble_128x64"
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
     shield: zonkey_left rgbled_adapter
