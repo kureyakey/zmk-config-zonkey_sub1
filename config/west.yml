@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-      
-      projects:
+
+  projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
@@ -23,5 +23,6 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
-      self:
+
+  self:
     path: config
